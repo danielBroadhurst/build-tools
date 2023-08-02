@@ -1,0 +1,9 @@
+{
+  "extends": "@atg-digital/config/tsconfig-es6",
+  "compilerOptions": {
+    "rootDir": "src",
+    "skipLibCheck": true,
+    "module": "commonjs"
+  },
+  "include": ["**/*.ts", "**/*.tsx"]
+}

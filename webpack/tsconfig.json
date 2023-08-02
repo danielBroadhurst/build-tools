@@ -1,0 +1,11 @@
+{
+  "extends": "@atg-digital/config/tsconfig-es6",
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "allowJs": true,
+    "module": "commonjs"
+  },
+  "include": ["**/*.ts", "**/*.tsx"]
+}

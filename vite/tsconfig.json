@@ -1,0 +1,10 @@
+{
+  "extends": "@atg-digital/config/tsconfig-es6",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "module": "CommonJS"
+  },
+  "include": ["**/*.ts", "**/*.tsx"]
+}

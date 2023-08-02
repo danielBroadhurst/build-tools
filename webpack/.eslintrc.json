@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "@atg-digital/eslint-config/base",
+    "@atg-digital/eslint-config/jest",
+    "@atg-digital/eslint-config/typescript"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
+}
